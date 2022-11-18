@@ -970,8 +970,9 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 900px;
-  max-width: 75%;
+  width: 490px;
+  /* max-width: 75%; */
+  right: 200px;
   height: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -992,8 +993,6 @@ body {
 .about--banner {
   position: relative;
   height: 475px;
-  width: 115;
-  word-wrap: break-word;
 }
 .about--banner::before {
   content: "";
@@ -1002,20 +1001,20 @@ body {
   left: 200px;
   -webkit-transform: rotate(-25deg);
   transform: rotate(-25deg);
-  border: 5px solid #0f33ff;
+  /* border: 5px solid #0f33ff; */
   border-right-color: transparent;
   border-bottom-color: transparent;
 }
 .about--banner::after {
-  content: "";
+  /* content: "";
   position: absolute;
   top: 75px;
   left: 400px;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   width: 10px;
-  height: 10px;
-  background-color: #0f33ff;
+  height: 10px; */
+  /* background-color: #0f33ff; */
 }
 .about--banner h2 {
   position: relative;
@@ -1065,8 +1064,9 @@ body {
 }
 .about--banner img {
   position: absolute;
-  bottom: -90px;
-  right: -12px;
+  z-index: -1;
+  bottom: -10px;
+  right: -520px;
 }
 .about--options {
   display: -webkit-box;
