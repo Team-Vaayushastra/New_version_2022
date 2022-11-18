@@ -548,6 +548,9 @@ body {
   font-size: 6px;
   cursor: pointer;
 }
+.side-nav li:nth-child(6){
+  font-size: 0px;
+}
 .side-nav > li span {
   position: relative;
   top: 3px;
@@ -566,6 +569,7 @@ body {
   font-size: 14px;
   font-weight: 300;
 }
+
 .side-nav li:nth-child(1)::before {
   content: "01";
 }
